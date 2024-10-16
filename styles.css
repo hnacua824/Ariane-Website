@@ -47,7 +47,11 @@ html{
     font-size: 1.2rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    transition: all .3s;
+    transition: all .5s;
+}
+
+.navDiv li a:hover{
+    font-size: 1.3rem;
 }
 
 
@@ -63,9 +67,8 @@ html{
 
 
 .section1Container {
-    background-image: url('images/model-background1.jpg'); 
+    background-image: url('images/background1.png'); 
     background-size: cover; 
-    background-position: center; 
     background-repeat: no-repeat;
     height: 100vh; 
     width: 100%; 
@@ -112,23 +115,26 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding-bottom: 5rem;
+    padding-top: .4rem;
     
 }
 
 .section2Image img{
-    margin-top: 8rem;
-    width: 480px;
+    margin-top: 5rem;
+    width: 400px;
     margin-right: 4rem;
 }
 
 .section2Image h1{
+    position: absolute;
     text-align: center;
     font-family: "Dancing Script", serif;
     font-size: 4.3rem;
     color: #b74c4c;
     margin-right: 2rem;
     margin-bottom: 3rem;
+    transform: translateY(-3.3rem);
 }
 
 .section2Text{
@@ -322,3 +328,59 @@ html{
     cursor: pointer;
 }
 
+
+.section5Container {
+    background-color: #a24e4e;
+    height: 100vh; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+
+    
+}
+
+.section5Image img{
+    margin-top: 5rem;
+    width: 600px;
+    margin-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section5Image h1{
+    position: absolute;
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    font-size: 3rem;
+    color: #a24e4e;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    transform: translate(6.7rem,-17.3rem);
+}
+
+.section5Text{
+    width: 400px;
+    margin-left: 4rem;
+}
+
+.section5Text h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2.3rem;
+}
+
+.section5Text p{
+    text-align: center;
+    margin-bottom: 1.7rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.spaces{
+    margin-bottom: 7rem;
+}
