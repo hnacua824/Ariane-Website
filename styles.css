@@ -481,6 +481,88 @@ html{
         border-radius: 40%;
     }
 
+    form {
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .form-group {
+        margin-bottom: 15px;
+        margin-right: 2rem;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+      }
+
+
+      .section8Container {
+        background-color: #a24e4e;
+        height: 80vh; 
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    
+        
+    }
+
+    .icons{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .icons i{
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    .section8Form button{
+        display: block;
+        margin: 20px auto;
+        background-color: #f4f3ef;
+    border-radius: .2rem;
+    font-family: "Crimson Text", serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .4rem;
+    
+    
+
+    }
+
+    .section8Form h1{
+        text-align: center;
+        font-family: "Dancing Script", serif;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+
+    
+
+      
+
 
     
     
