@@ -493,6 +493,9 @@ html{
       .form-group {
         margin-bottom: 15px;
         margin-right: 2rem;
+        margin-top: 2rem;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
       }
       
       label {
@@ -550,6 +553,8 @@ html{
 
     }
 
+    
+
     .section8Form h1{
         text-align: center;
         font-family: "Dancing Script", serif;
@@ -558,6 +563,25 @@ html{
         color: white;
     }
 
+    form{
+        background-color: #f4f3ef;
+    }
+
+    form button{
+        cursor: pointer;
+        transition: .6s;
+    }
+
+    form button:hover{
+        background-color: #b87272;
+    }
+
+
+    .sectionBook{
+        background-color: #a24e4e;
+    }
+
+    
 
     
 
