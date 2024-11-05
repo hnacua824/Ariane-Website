@@ -25,6 +25,18 @@ html{
     transition: all .8s ease;
 }
 
+.navBar2 {
+    background-color: #a24e4e;
+    padding: 1rem 1.5rem 1.1rem 1.5rem;
+
+
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 1000; 
+    transition: all .8s ease;
+}
+
 .navDiv {
     display: flex;
     align-items: center;
@@ -491,7 +503,7 @@ html{
       }
       
       .form-group {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         margin-right: 2rem;
         margin-top: 2rem;
         padding-left: 1.4rem;
@@ -579,9 +591,58 @@ html{
 
     .sectionBook{
         background-color: #a24e4e;
+    
+        height: 100vh;
     }
 
+    .bookingContainer{
+        display:flex ;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
     
+    .bookingForm{
+        margin-top: 4rem;
+    }
+
+
+    .submitBtn{
+        background-color: #f4f3ef;
+        border-radius: 1rem;
+        font-family: "Crimson Text", serif;
+        text-align: center;
+        font-size: 1rem;
+        padding: .4rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form{
+        font-family: "Crimson Text", serif;
+    }
+
+
+    .days{
+        margin-top: 3rem;
+        
+    }
+
+    .days h4{
+        color: white;
+        margin-top: 1.5rem;
+        text-align: center;
+        font-family: "Crimson Text", serif;
+    }
+
+    .availableBooking h1{
+        font-family: "Dancing Script", serif;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+    }
 
     
 

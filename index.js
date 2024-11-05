@@ -2,8 +2,13 @@ const express = require('express')
 const mongoose = require('mongoose');
 const Product = require('./models/product.model.js');
 const app = express()
+const cors = require('cors');
 
+
+app.use(cors());
 app.use(express.json());
+
+
 
 
 
@@ -20,6 +25,9 @@ app.post('/api/products', async (req, res) =>{
         res.status(500).json({message:error.message});
     }
 });
+
+
+
 
 mongoose.connect("mongodb+srv://HN824:BUs7LBbxXgcUFpf7@booking-backend.d2qlw.mongodb.net/Ariane-Booking?retryWrites=true&w=majority&appName=booking-backend")
 .then(()=>{
