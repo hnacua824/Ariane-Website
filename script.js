@@ -40,3 +40,8 @@ document.getElementById('fm2').addEventListener('click', function() {
 document.getElementById('fm3').addEventListener('click', function() {
   window.location.href = "#";
 });
+
+
+document.getElementById('bookNow').addEventListener('click', function() {
+  window.location.href = "booking.html";
+});
