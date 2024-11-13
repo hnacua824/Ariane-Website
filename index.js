@@ -1,6 +1,8 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const Product = require('./models/product.model.js');
+const session = require('express-session');
 const app = express();
 const cors = require('cors');
 
@@ -19,6 +21,9 @@ app.post('/api/products', async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
+
+
+app.set('view engine', 'ejs');
 
 // New GET route to fetch products
 app.get('/api/products', async (req, res) => {

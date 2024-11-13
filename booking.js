@@ -2,6 +2,8 @@ document.getElementById('bookingForm').addEventListener('submit', async (e) => {
   e.preventDefault(); // Prevents the default form submission
 
 
+  const serviceValue = document.getElementById('service').value;
+console.log("Service selected:", serviceValue);
   
   const formData = {
       name: document.getElementById('name').value,

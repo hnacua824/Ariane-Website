@@ -12,6 +12,9 @@ function scrollFunction() {
   }
 }
 
+document.getElementById('bookNow').addEventListener('click', function() {
+  window.location.href = "booking.html";
+});
 
 
 //clickable pictures
@@ -45,3 +48,17 @@ document.getElementById('fm3').addEventListener('click', function() {
 document.getElementById('bookNow').addEventListener('click', function() {
   window.location.href = "booking.html";
 });
+
+
+let menuList = document.getElementById("menuList");
+menuList.style.maxHeight="0px";
+
+
+function toggleMenu(){
+  if(menuList.style.maxHeight=="0px"){
+    menuList.style.maxHeight="300px"
+  }
+  else{
+    menuList.style.maxHeight="0px"
+  }
+}

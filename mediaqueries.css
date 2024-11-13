@@ -35,3 +35,26 @@
         font-size: .7rem;
     }
 }
+
+@media (max-width: 1000px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #a24e4e;
+        gap:0;
+        overflow: hidden;
+    }
+
+    nav ul li{
+        padding: 20px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+}
+
