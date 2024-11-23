@@ -2,19 +2,22 @@ document.getElementById('bookingForm').addEventListener('submit', async (e) => {
   e.preventDefault(); // Prevents the default form submission
 
 
-  const serviceValue = document.getElementById('service').value;
-console.log("Service selected:", serviceValue);
+//   const serviceValue = document.getElementById('service').value;
+// console.log("Service selected:", serviceValue);
+
+const services = Array.from(document.querySelectorAll('input[name="services"]:checked'))
+                      .map(checkbox => checkbox.value);
   
   const formData = {
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
       phoneNumber: document.getElementById('phoneNumber').value,
-      service: document.getElementById('service').value,
+      services: services,
       date: document.getElementById('date').value
   };
 
   try {
-      const response = await fetch('http://localhost:3002/api/products', {
+      const response = await fetch('http://localhost:3002/api/users', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'

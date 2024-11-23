@@ -1,40 +1,122 @@
 @media (max-width: 768px) {
-    .section1H1{
-        font-size: 2rem;
-      
-    }
-
-    .section1Text p{
-        font-size: 1rem;
-    }
-    .section1Container{
-        background-size: cover;
-        
-    }
-
-    .section2Container{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .section2Container img{
-        width: 300px;
-        margin-left: 5rem;
-    }
-
-    .section2Container h1{
-        font-size: 2.4rem;
+    
+    .section2Text p{
+        font-size: smaller;
     }
 
     .section2Text h3{
+        font-size: small;
+    }
+
+    .section2Image img{
+        margin-top: 1rem;
+        width: 350px;
+        margin-right: 4rem;
+    }
+
+    .section5Image img{
+        width: 420px;
+        
+    }
+
+    .section5Text h3{
+        font-size: small;
+    }
+
+    .section5Text p{
         font-size: 1rem;
     }
 
-    .section2Text p{
-        font-size: .7rem;
+    .section5Image h1{
+        font-size: 2rem;
+        transform: translate(4.7rem,-14.3rem);
     }
+
+    .section7Text h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .section7Text p{
+        font-size: 1rem;
+    }
+
+    
+
+    .section8Text h3{
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+
+    .section8Text p{
+        font-size: .9rem;
+    }
+    .section8Text i{
+        font-size: 1.2rem;
+        padding-bottom: 2rem;
+    }
+
+    .availableBooking h1{
+        
+        font-size: 1rem;
+    
+        color: white;
+    }
+
+    .section1Container{
+        background-image: url('images/IMG_2892.jpg'); 
+    }
+
+    .small-form {
+        width: 100%;
+        max-width: 400px; /* Make the form smaller, but not too small */
+        margin: 0 auto;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+      }
+      
+      .small-form .form-group {
+        margin-bottom: 10px;
+      }
+      
+      .small-form label {
+        font-size: 14px;
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      .small-form input,
+      .small-form textarea {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .small-form textarea {
+        resize: vertical;
+      }
+      
+      .small-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #a24e4e;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+    
+      
+
 }
+
+
+
+
 
 @media (max-width: 1000px) {
     nav ul{
@@ -58,3 +140,21 @@
     }
 }
 
+
+@media (max-width: 480px) {
+    /* Even smaller screens (phones in portrait) */
+    .section8Form h1 {
+        font-size: 1.5rem; /* Further reduce heading size */
+    }
+
+    .section8Form button {
+        font-size: 0.8rem; /* Even smaller button text */
+        padding: 0.5rem; /* Adjust button padding */
+    }
+
+    .section8Form input,
+    .section8Form textarea {
+        font-size: 0.8rem; /* Smaller text inputs */
+        padding: 0.6rem; /* Adjust input padding */
+    }
+}
