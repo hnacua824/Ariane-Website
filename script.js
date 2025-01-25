@@ -19,30 +19,30 @@ document.getElementById('bookNow').addEventListener('click', function() {
 
 //clickable pictures
 
-document.getElementById('lash1').addEventListener('click', function() {
-  window.location.href = "#";
-});
+// document.getElementById('lash1').addEventListener('click', function() {
+//   window.location.href = "#";
+// });
 
-document.getElementById('lash2').addEventListener('click', function() {
-  window.location.href = "#"; 
-});
+// document.getElementById('lash2').addEventListener('click', function() {
+//   window.location.href = "#"; 
+// });
 
-document.getElementById('lash3').addEventListener('click', function() {
-  window.location.href = "#";
-});
+// document.getElementById('lash3').addEventListener('click', function() {
+//   window.location.href = "#";
+// });
 
 
-document.getElementById('fm1').addEventListener('click', function() {
-  window.location.href = "#";
-});
+// document.getElementById('fm1').addEventListener('click', function() {
+//   window.location.href = "#";
+// });
 
-document.getElementById('fm2').addEventListener('click', function() {
-  window.location.href = "#"; 
-});
+// document.getElementById('fm2').addEventListener('click', function() {
+//   window.location.href = "#"; 
+// });
 
-document.getElementById('fm3').addEventListener('click', function() {
-  window.location.href = "#";
-});
+// document.getElementById('fm3').addEventListener('click', function() {
+//   window.location.href = "#";
+// });
 
 
 document.getElementById('bookNow').addEventListener('click', function() {
@@ -62,3 +62,11 @@ function toggleMenu(){
     menuList.style.maxHeight="0px"
   }
 }
+
+
+document.querySelectorAll('.lashCard, .fmCard').forEach(card => {
+  card.addEventListener('click', () => {
+      card.classList.toggle('flipped');
+  });
+});
+

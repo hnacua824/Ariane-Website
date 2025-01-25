@@ -7,6 +7,8 @@ body {
     font-family: "Crimson Text", serif;
     background: linear-gradient(to left, white, rgb(255, 248, 239)); 
     background-position: center;
+    overflow-x: hidden;
+    
 }
 
 html{
@@ -89,7 +91,7 @@ html{
 .section1Container {
     background-image: url('images/background1.png'); 
     background-size: cover; 
-    background-position: center; /* Ensure the background stays centered */
+    background-position: center; 
     background-repeat: no-repeat;
     height: 100vh; 
     width: 100%; 
@@ -101,9 +103,9 @@ html{
 }
 
 .section1H1 {
-    font-size: 4rem; /* Adjust size for better scaling */
+    font-size: 4rem; 
     color: white;
-    margin: 2rem 0; /* Adjust top and bottom margin */
+    margin: 2rem 0; 
     text-indent: 0; /* Remove text indent */
     transition: 0.3s;
     font-family: "Crimson Text", serif; /* Use consistent fonts */
@@ -162,9 +164,9 @@ html{
     font-family: "Dancing Script", serif;
     font-size: 4.3rem;
     color: #b74c4c;
-    margin-right: 2rem;
-    margin-bottom: 3rem;
+    
     transform: translateY(-3.3rem);
+   
 }
 
 
@@ -192,202 +194,138 @@ html{
 }
 
 
-.section3Container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-    gap: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    
-}
-
-.section3{
+/* General Section Styles */
+.section3 {
     margin-top: 5rem;
     margin-bottom: 4rem;
     background-color: #fff7f7;
+    padding: 2rem;
 }
 
-.section3 h1{
+.section3 h1 {
     font-family: "Dancing Script", serif;
     color: #b74c4c;
     font-size: 3rem;
     font-weight: bold;
-    margin-left: 1rem;
+    text-align: center;
 }
 
-.lash1{
+/* Container for cards */
+.section3Container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+/* Card Wrapper */
+.lashCard, .fmCard {
     width: 45%;
+    max-width: 400px;
     height: 70vh;
-    background-image: url(images/lash1.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.7;
-    transition: all .3s;
+    perspective: 1000px;
+    cursor: pointer;
 }
 
-.lash2{
-    width: 45%;
-    height: 70vh;
-    background-image: url(images/lash2.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.7;
-    transition: all .3s;
+/* Inner content of the card */
+.lashCardInner, .fmCardInner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
 }
 
-.lash3{
-    width: 45%;
-    height: 70vh;
-    background-image: url(images/lash3.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.7;
-    transition: all .3s;
+/* Flip on click */
+.lashCard.flipped .lashCardInner, .fmCard.flipped .fmCardInner {
+    transform: rotateY(180deg);
 }
 
-.lash1,.lash2,.lash3{
+/* Card Faces */
+.lashCardFront, .fmCardFront, .lashCardBack, .fmCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    cursor: pointer;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Front Face Style */
+.lashCardFront, .fmCardFront {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.lashCardFront:hover, .fmCardFront:hover {
+    opacity: 1;
+}
+
+/* Back Face Style */
+.lashCardBack, .fmCardBack {
+    background-color: #f4f3ef;
+    transform: rotateY(180deg);
+}
+
+/* Text Styling */
+.lashCardFront h3, .fmCardFront h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.lashCardFront h4, .fmCardFront h4 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.lashCardFront p, .fmCardFront p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.lashCardBack p, .fmCardBack p {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
 }
 
 #language-select{
- padding: .8rem;
- border: none;
- background-color: rgba(33, 32, 32, 0);
- color: white;
- font-size: 1rem;
- border-radius: .8rem;
- transition: all .3s;
-}
-
-#language-select:hover{
-    background-color: white;
-    color: black;
+    padding: .8rem;
+    border: none;
+    background-color: rgba(33, 32, 32, 0);
+    color: white;
+    font-size: 1rem;
+    border-radius: .8rem;
+    transition: all .3s;
    }
    
-
-
-
-.lash1:hover,.lash2:hover,.lash3:hover{
-    opacity: 1;
-}
-
-
-
-.lash1 h4,.lash2 h4,.lash3 h4,
-.lash1 p,.lash2 p,.lash3 p,
-.lash1 h3,.lash2 h3,.lash3 h3{
-    color: rgb(255, 255, 255);
-}
-
-
-.lash1 h4,.lash2 h4,.lash3 h4{
-    font-size: 1.5rem;
-    font-weight: lighter;
-}
-
-.lash1 h3,.lash2 h3,.lash3 h3{
-    font-size: 1.8rem;
-}
-
-.lash1 p,.lash2 p,.lash3 p{
-    font-size: 1rem;
-}
-
-
-
-
-.fm1{
-    width: 45%;
-    height: 70vh;
-    background-image: url(images/fm1.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.7;
-    transition: all .3s;
-}
-
-
-.fm2{
-    width: 45%;
-    height: 70vh;
-    background-image: url(images/fm2.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.7;
-    transition: all .3s;
-}
-
-
-.fm3{
-    width: 45%;
-    height: 70vh;
-    background-image: url(images/fm3.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.7;
-    transition: all .3s;
-}
-
-
-.fm1:hover,.fm2:hover,.fm3:hover{
-    opacity: 1;
-}
-
-
-
-.fm1 h4,.fm2 h4,.fm3 h4,
-.fm1 p,.fm2 p,.fm3 p,
-.fm1 h3,.fm2 h3,.fm3 h3{
-    color: rgb(255, 255, 255);
-}
-
-
-.fm1 h4,.fm2 h4,.fm3 h4{
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    font-weight: lighter;
-}
-
-.fm1 h3,.fm2 h3,.fm3 h3{
-    font-size: 1.5rem;
-}
-
-.fm1 p,.fm2 p,.fm3 p{
-    font-size: 1rem;
-}
-
-
-.fm1,.fm2,.fm3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-}
+   #language-select:hover{
+       background-color: white;
+       color: black;
+      }
+      
 
 
 .section5Container {
     background-color: #a24e4e;
     height: 100vh; 
-    width: 100%; 
+    max-width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 8rem;
     padding-top: 5rem;
-    flex-wrap: wrap;
+    
 
     
 }
@@ -399,6 +337,8 @@ html{
     padding-bottom: 4rem;
 }
 
+
+
 .section5Image h1{
     position: absolute;
     text-align: center;
@@ -408,6 +348,7 @@ html{
     margin-right: 2rem;
     margin-bottom: 3rem;
     transform: translate(6.7rem,-17.3rem);
+   
 }
 
 .section5Text{
@@ -463,6 +404,7 @@ html{
     font-family: "Dancing Script", serif;
     font-size: 3rem;
     color: #a24e4e;
+ 
 }
 
 .section6Container p {
@@ -521,6 +463,7 @@ html{
         font-weight: bolder;
         color: rgb(0, 0, 0);
         font-size: 4rem;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add subtle text shadow for contrast */
     }
     
     .section7Text p{
@@ -575,7 +518,10 @@ html{
 
 
       .section8Container {
-        background-color: #a24e4e;
+        background-image: url('images/macadamia-body-lotion-skin-cream.jpg'); 
+        background-size: cover; 
+        background-position: center; /* Ensure the background stays centered */
+        background-repeat: no-repeat;
         height: 80vh; 
         width: 100%; 
         display: flex;
@@ -583,6 +529,7 @@ html{
         align-items: center;
         padding-bottom: 8rem;
         padding-top: 1rem;
+        flex-wrap: wrap;
         
         
     }
@@ -598,6 +545,7 @@ html{
         margin-right: 2rem;
         margin-bottom: 3rem;
         transform: translate(6.7rem,-17.3rem);
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add subtle text shadow for contrast */
     }
     
     .section8Text{
@@ -611,6 +559,7 @@ html{
         font-weight: bold;
         color: #ffffff;
         font-size: 2.3rem;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add subtle text shadow for contrast */
     }
     
     .section8Text p{
@@ -618,6 +567,7 @@ html{
         margin-bottom: 1.7rem;
         color: #ffffff;
         font-size: 1.3rem;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add subtle text shadow for contrast */
     }
 
     .icons{
@@ -632,19 +582,40 @@ html{
         cursor: pointer;
     }
 
+    
+
     .section8Form button{
         display: block;
         margin: 20px auto;
         background-color: #f4f3ef;
-    border-radius: .2rem;
-    font-family: "Crimson Text", serif;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: .4rem;
+        border: none;
+        border-radius: 1rem;
+        font-family: "Crimson Text", serif;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: .4rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better appearance */
+        padding: 1rem 3rem; /* Balanced padding */
     
     
 
+    }
+
+    .section8Form button:hover{
+   
+        background-color: #e0ddd8; /* Subtle hover effect */
+        transform: scale(1.05); /* Slight scaling on hover */
+
+    }
+
+    
+
+    .section8Form form{
+        background-color: rgba(255, 255, 255, .7); /* White background with 70% opacity */
+        padding: 2rem;
+        border-radius: 1rem;
+        
     }
 
     
@@ -655,6 +626,7 @@ html{
         font-size: 3rem;
         margin-bottom: 2rem;
         color: white;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add subtle text shadow for contrast */
     }
 
     form{
@@ -700,6 +672,7 @@ html{
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
 
     form{
@@ -730,7 +703,6 @@ html{
     .footer {
         
         background-color: #f9f9f9;
-        border-top: 1px solid #a24e4e;
         color: #a24e4e;
         padding: 5rem 0;
         text-align: center;

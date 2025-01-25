@@ -1,4 +1,16 @@
 @media (max-width: 768px) {
+
+    .lashCard, .fmCard {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .section3 h1 {
+        font-size: 2.5rem;
+    }
+    .logo{
+        font-size: 1.2rem;
+    }
     
     .section2Text p{
         font-size: smaller;
@@ -9,9 +21,13 @@
     }
 
     .section2Image img{
-        margin-top: 1rem;
+        
         width: 350px;
-        margin-right: 4rem;
+       
+    }
+
+    .section5Container{
+        flex-wrap: wrap;
     }
 
     .section5Image img{
@@ -91,7 +107,7 @@
         width: 100%;
         padding: 8px;
         font-size: 14px;
-        border: 1px solid #ccc;
+        
         border-radius: 4px;
       }
       
@@ -99,16 +115,14 @@
         resize: vertical;
       }
       
-      .small-form button {
-        width: 100%;
-        padding: 10px;
-        background-color: #a24e4e;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
       
+      
+
+      .section5Image h1{
+        text-align: center;
+        font-size: 2rem;
+        
+    }
     
       
 
@@ -143,21 +157,7 @@
 
 @media (max-width: 480px) {
     /* Even smaller screens (phones in portrait) */
-    .section8Form h1 {
-        font-size: 1.5rem; /* Further reduce heading size */
-    }
-
-    .section8Form button {
-        font-size: 0.8rem; /* Even smaller button text */
-        padding: 0.5rem; /* Adjust button padding */
-    }
-
-    .section8Form input,
-    .section8Form textarea {
-        font-size: 0.8rem; /* Smaller text inputs */
-        padding: 0.6rem; /* Adjust input padding */
-    }
-
+    
 
 
     .section2Image img{
@@ -172,10 +172,19 @@
         margin-top: 2rem;
     }
 
+    .section2Text h3{
+        font-size: 1.2rem;
+    }
+
+    .section2Text p{
+        font-size: .825rem;
+    }
+
 
     .section2Container{
-        padding-bottom: 70%;
+        padding-bottom: 100%;
         padding-top: 20%;
+        height: 80vh;
     }
     
     .section2Image h1{
@@ -186,6 +195,7 @@
 
     .section5Container{
         padding-bottom: 100%;
+        height: 80vh;
     }
 
     .section5Image img{
@@ -247,6 +257,20 @@
 .section1Button button {
     font-size: 1rem; /* Smaller font for the button */
     padding: 0.6rem 2rem; /* Adjust padding */
+}
+
+.section3Container {
+    flex-direction: column;
+}
+
+.lash1, .lash2, .lash3, .fm1, .fm2, .fm3 {
+    width: 90%;
+    height: 50vh;
+}
+
+
+.section8Container{
+    padding-bottom: 100%;
 }
 
 
