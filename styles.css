@@ -86,10 +86,10 @@ html{
 
 
 
-
 .section1Container {
     background-image: url('images/background1.png'); 
     background-size: cover; 
+    background-position: center; /* Ensure the background stays centered */
     background-repeat: no-repeat;
     height: 100vh; 
     width: 100%; 
@@ -97,38 +97,46 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center; /* Center-align content */
 }
 
-.section1H1{
-    font-size: 5rem;
+.section1H1 {
+    font-size: 4rem; /* Adjust size for better scaling */
     color: white;
-    margin-top: 4rem;
-    text-indent: 2.4rem; /* Adjust the value for desired indent */
+    margin: 2rem 0; /* Adjust top and bottom margin */
+    text-indent: 0; /* Remove text indent */
+    transition: 0.3s;
+    font-family: "Crimson Text", serif; /* Use consistent fonts */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add subtle text shadow for contrast */
 }
 
-.section1Text p{
-    text-align: center;
-    margin-bottom: 4rem;
-    margin-top: .6rem;
+.section1Text p {
+    margin: 1rem 0; /* Adjust spacing */
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Dancing Script", serif;
+    line-height: 1.5; /* Improve text readability */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Consistent shadow for readability */
+    transition: 0.3s;
 }
 
-.section1Button button{
-    padding-right: 6rem;
-    padding-top: 0.7rem;
-    padding-bottom:.7rem ;
-    padding-left: 6rem;
+.section1Button button {
+    padding: 1rem 3rem; /* Balanced padding */
     background-color: #f4f3ef;
+    border: none;
     border-radius: 1rem;
     font-family: "Crimson Text", serif;
-    text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better appearance */
+    transition: all 0.3s ease-in-out;
 }
 
+.section1Button button:hover {
+    background-color: #e0ddd8; /* Subtle hover effect */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
 
 .section2Container {
     background-color: #e4d6d6;
@@ -139,7 +147,7 @@ html{
     align-items: center;
     padding-bottom: 5rem;
     padding-top: .4rem;
-    
+    flex-wrap: wrap;
 }
 
 .section2Image img{
@@ -159,9 +167,12 @@ html{
     transform: translateY(-3.3rem);
 }
 
+
+
 .section2Text{
     width: 400px;
     margin-left: 4rem;
+    
 }
 
 .section2Text h3{
@@ -185,7 +196,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    padding-top: 2rem;
     gap: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -246,6 +257,22 @@ html{
     flex-direction: column;
     cursor: pointer;
 }
+
+#language-select{
+ padding: .8rem;
+ border: none;
+ background-color: rgba(33, 32, 32, 0);
+ color: white;
+ font-size: 1rem;
+ border-radius: .8rem;
+ transition: all .3s;
+}
+
+#language-select:hover{
+    background-color: white;
+    color: black;
+   }
+   
 
 
 
@@ -360,15 +387,15 @@ html{
     align-items: center;
     padding-bottom: 8rem;
     padding-top: 5rem;
+    flex-wrap: wrap;
 
     
 }
 
 .section5Image img{
     margin-top: 5rem;
-    width: 600px;
+    width: 520px;
     margin-right: 4rem;
-    padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
@@ -398,7 +425,7 @@ html{
 
 .section5Text p{
     text-align: center;
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.4rem;
     color: #ffffff;
     font-size: 1.3rem;
 }
@@ -407,22 +434,29 @@ html{
     margin-bottom: 7rem;
 }
 
-.section6Container{
+.section6Container {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-evenly; /* Space items evenly */
     align-items: center;
     background-color: #fff7f7;
-}
-
-.section6Box
-{
-    width: 20%;
-    border:2px solid #a24e4e;
+    gap: 1rem; /* Add spacing between boxes */
     padding: 2rem;
-    margin-bottom: 5rem;
 }
 
-.section6Title{
+.section6Box {
+    flex: 1 1 calc(30% - 2rem); /* Flexible width with gaps */
+    max-width: 30%; /* Limit the maximum width */
+    border: 2px solid #a24e4e;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for better look */
+    background-color: #fff; /* Optional: White background for contrast */
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.section6Title {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -431,17 +465,20 @@ html{
     color: #a24e4e;
 }
 
-.section6Container p{
+.section6Container p {
     line-height: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     color: #a24e4e;
 }
 
-.section6Container h4{
+.section6Container h4 {
     text-align: center;
     color: #a24e4e;
     font-weight: bold;
-    }
+}
+
+
+
 
 
     .seven{
@@ -457,6 +494,7 @@ html{
         align-items: center;
         padding-bottom: 5rem;
         padding-top: .4rem;
+        flex-wrap: wrap;
         
     }
     
@@ -471,6 +509,7 @@ html{
     .section7Text{
         width: 400px;
         margin-left: 4rem;
+        flex-wrap: wrap;
     }
 
 
@@ -480,19 +519,19 @@ html{
         margin-bottom: .2rem;
         font-style: italic;
         font-weight: bolder;
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 4rem;
     }
     
     .section7Text p{
         text-align: center;
         margin-bottom: 1.5rem;
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 1.3rem;
     }
 
     .section7Container{
-        background: url(images/background2.png);
+        background: url(images/flat-lay-bath-concept-with-copy-space.jpg);
         background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -764,26 +803,7 @@ html{
       
      
       
-      /* Media query for 768px and smaller screens */
-      @media (max-width: 768px) {
-        .small-form {
-          max-width: 90%; /* Allow the form to take up 90% of the screen width */
-          padding: 10px;
-        }
-      
-        .small-form label {
-          font-size: 13px; /* Slightly smaller labels */
-        }
-      
-        .small-form input,
-        .small-form textarea {
-          font-size: 13px; /* Smaller input fields */
-        }
-      
-        .small-form button {
-          padding: 12px; /* Make the button a little larger for easier tapping on mobile */
-        }
-      }
+    
       
 
 

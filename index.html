@@ -22,10 +22,17 @@
         <a class="logo" href="#">Luxuriöse Aesthetik</a>
        
         <ul id="menuList">
-            <li><a href="#section2">About Us</a></li>
-            <li><a href="#section3">Services</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="booking.html">Book Appointment</a></li>
+            <li class="navAboutUs"><a href="#section2">About Us</a></li>
+            <li class="navServices"><a href="#section3">Services</a></li>
+            <li class="navContact"><a href="#Contact">Contact</a></li>
+            <li class="navBooking"><a href="booking.html">Book Appointment</a></li>
+
+            <div class="language-container">
+                <select id="language-select" onchange="switchLanguage()">
+                  <option value="en">English</option>
+                  <option value="de">German</option>
+                </select>
+              </div>
             
         </ul>
 
@@ -51,7 +58,7 @@
                 </h1>
 
                 <div>
-                    <p>Because gorgeous, glowing skin <br>is for everyone.</p>
+                    <p class="section1P">Because gorgeous, glowing skin <br>is for everyone.</p>
                 </div>
 
             </div>
@@ -293,7 +300,7 @@
 
             <div class="section7Image">
     
-                <img class="img7" src="images/img.JPG" alt="">
+                <img class="img7" src="images/IMG_4906.JPG" alt="">
                 
     
             </div>
@@ -305,9 +312,12 @@
     
                 <h1>Your Skin Care <br>
                 Saviours</h1>
-                <p>Share your company's mission, vision, or background with your <br>
-                    potential clients. Set yourself apart from the competition with a <br>
-                     strong brand persona that puts your clients first.
+                <p>At Luxuriose Aesthetik we offer specialized services to enhance your 
+                    natural beauty and well-being. Our facial massage treatments rejuvenate the skin, improve circulation, and reduce tension for a refreshed look. We also provide lash extensions and lifts for fuller, elegantly curled lashes, eliminating the need for daily mascara. Additionally, our eyebrow lifting and tinting services frame your face beautifully, creating a youthful appearance. 
+
+                    Our skilled professionals ensure a personalized 
+                    experience that boosts your confidence and promotes self-care.
+                     Discover the transformative effects of our beauty services with us.
                 </p>
     
                 
@@ -430,6 +440,7 @@
 
 
 
+    <script src="language.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
