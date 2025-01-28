@@ -1,139 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa5e24a6c6.js"
-      crossorigin="anonymous"
-    ></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fa5e24a6c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Luxuriöse Aesthetik</title>
+</head>
+<body>
 
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-    <title>Document</title>
-  </head>
-  <body>
+
     <nav class="navBar">
-      <div class="navDiv">
-        <a class="logo" href="/index.html">Luxuriöse Aesthetik</a>
-      </div>
-    </nav>
+    <div class="navDiv">
 
-    <section class="sectionBook">
-      <div class="bookingContainer">
-        <div class="bform">
-          <form class="bookingForm" id="bookingForm">
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required /><br /><br />
-            </div>
+        
 
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-              /><br /><br />
-            </div>
-
-            <div class="form-group">
-              <label for="phoneNumber">Phone Number:</label>
-              <input
-                type="number"
-                id="phoneNumber"
-                name="phoneNumber"
-                required
-              /><br /><br />
-            </div>
-
-            <div class="form-group">
-              <label>Services:</label>
-              <div>
-                <label
-                  ><input type="checkbox" name="services" value="Wimpern" />
-                  Wimpern</label
-                ><br />
-                <label
-                  ><input
-                    type="checkbox"
-                    name="services"
-                    value="Lash Lift und Tönen"
-                  />
-                  Lash Lift und Tönen</label
-                ><br />
-                <label
-                  ><input
-                    type="checkbox"
-                    name="services"
-                    value="Brauen Laminierung"
-                  />
-                  Brauen Laminierung</label
-                ><br />
-                <label
-                  ><input
-                    type="checkbox"
-                    name="services"
-                    value="Basic Facial"
-                  />
-                  Basic Facial</label
-                ><br />
-                <label
-                  ><input
-                    type="checkbox"
-                    name="services"
-                    value="Facial Massage"
-                  />
-                  Facial Massage</label
-                ><br />
-                <label
-                  ><input
-                    type="checkbox"
-                    name="services"
-                    value="GuanSha Massage"
-                  />
-                  GuanSha Massage</label
-                >
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="date">Date and Time:</label>
-              <input
-                type="datetime-local"
-                id="date"
-                name="date"
-                required
-              /><br /><br />
-            </div>
-
-            <button class="submitBtn" type="submit">Submit</button>
-          </form>
+        <a class="logo" href="index.html">Luxuriöse Aesthetik</a>
+       
+        <div class="language-container">
+          <select id="language-select" onchange="switchLanguage()">
+            <option value="en">English</option>
+            <option value="de">German</option>
+          </select>
         </div>
 
-        <div class="availableBooking">
-          <h1>Days Available</h1>
-          <div class="days">
-            <h4>Monday 6am - 7pm</h4>
-            <h4>Tuesday 6am - 7pm</h4>
-            <h4>Wednesday 6am - 7pm</h4>
-            <h4>Thursday 6am - 7pm</h4>
-            <h4>Saturday 6am - 7pm</h4>
-            <h4>Sunday 6am - 7pm</h4>
-          </div>
-        </div>
-      </div>
-    </section>
+            
+        
 
-    <script src="booking.js"></script>
-    <script src="index.js"></script>
+        
+    </div>
+    
+    
+</nav>
+
+<section class="booking">
+
+  <div class="bookingContainer">
+    <div class="card BookingNow">
+      
+        <img src="/images/flat-lay-february-calendar-items (1).jpeg" alt="Booking" class="cardImage">
+        <div class="cardContent">
+            <h3>Book Your Appointment</h3>
+            <p>Select a date and time for your appointment.</p>
+            <a href="https://calendar.app.google/c68sP1iraDd8W1zz6" class="button">Book Now</a>
+        </div>
+    </div>
+
+    <div class="card serviceForm">
+        <img src="/images/spa-concept-closeup-beautiful-spa-products-spa-salt-flowers-horizontal.jpeg" alt="Service Form" class="cardImage">
+        <div class="cardContent">
+            <h3>Select Your Service</h3>
+            <p>Choose the services you'd like to book from our list.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSetuHGBflJ10_n8X_R7DWQc28PWDLrAZsNghpeXf9A0Pzh_Og/viewform?usp=header" class="button">Choose Service</a>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <script src="language.js"></script>
     <script src="script.js"></script>
-  </body>
+
+
+</body>
 </html>

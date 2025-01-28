@@ -222,7 +222,7 @@ html{
 
 /* Card Wrapper */
 .lashCard, .fmCard {
-    width: 45%;
+    width: 40%;
     max-width: 400px;
     height: 70vh;
     perspective: 1000px;
@@ -474,7 +474,7 @@ html{
     }
 
     .section7Container{
-        background: url(images/flat-lay-bath-concept-with-copy-space.jpg);
+        background: url(images/flat-lay-bath-concept-with-copy-space.jpeg);
         background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -518,11 +518,11 @@ html{
 
 
       .section8Container {
-        background-image: url('images/macadamia-body-lotion-skin-cream.jpg'); 
+        background-image: url('images/bodybacklotio.jpeg'); 
         background-size: cover; 
         background-position: center; /* Ensure the background stays centered */
         background-repeat: no-repeat;
-        height: 80vh; 
+        height: 100vh; 
         width: 100%; 
         display: flex;
         justify-content: center;
@@ -629,75 +629,87 @@ html{
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add subtle text shadow for contrast */
     }
 
-    form{
-        background-color: #f4f3ef;
-    }
 
-    form button{
-        cursor: pointer;
-        transition: .6s;
-    }
+    /*Booking Page */
 
-    form button:hover{
-        background-color: #b87272;
-    }
-
-
-    .sectionBook{
-        background-color: #a24e4e;
-    
-        height: 100%;
-        width: 100%;
-    }
-
-    .bookingContainer{
-        display:flex ;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    
-    .bookingForm{
-        margin-top: 4rem;
+    .booking{
+        background-image: url('images/bodybacklotio.jpeg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 
 
-    .submitBtn{
-        background-color: #f4f3ef;
-        border-radius: 1rem;
-        font-family: "Crimson Text", serif;
-        text-align: center;
-        font-size: 1rem;
-        padding: .4rem;
-        font-weight: bold;
+    .bookingContainer {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        
+        justify-content: space-around;
+        gap: 20px;
+        padding: 20px;
+        padding-top: 10rem;
+        flex-wrap: wrap;
     }
 
-    form{
-        font-family: "Crimson Text", serif;
+
+    
+    .card {
+        width: 600px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-
-
-    .days{
-        margin-top: 3rem;
-        
+    
+    .cardImage {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
     }
-
-    .days h4{
-        color: white;
-        margin-top: 1.5rem;
+    
+    .cardContent {
+        padding: 15px;
+        padding-bottom: 4rem;
         text-align: center;
-        font-family: "Crimson Text", serif;
     }
 
-    .availableBooking h1{
-        font-family: "Dancing Script", serif;
-        font-size: 3rem;
-        font-weight: bold;
-        color: white;
+    .cardContent a{
+        text-decoration: none;
+        color: black;
     }
+
+    .button{
+        padding: 1rem 3rem; 
+    background-color: #f4f3ef;
+    border: none;
+    border-radius: 1rem;
+    font-family: "Crimson Text", serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease-in-out;
+    
+    }
+
+    .button:hover{
+        background-color: #e0ddd8; 
+    transform: scale(1.11);
+    }
+    
+    .cardContent h3 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+    
+    .cardContent p {
+        font-size: 1em;
+        color: #555;
+        margin-bottom: 4rem;
+    }
+    
+    
+    
+   
 
 
     .footer {
