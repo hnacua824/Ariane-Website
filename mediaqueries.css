@@ -12,6 +12,8 @@
         font-size: 1.2rem;
     }
     
+
+    
     .section2Text p{
         font-size: smaller;
     }
@@ -25,6 +27,12 @@
         width: 350px;
        
     }
+
+    .section2Image h1{
+        display: none;
+    }
+
+    
 
     .section5Container{
         flex-wrap: wrap;
@@ -84,7 +92,7 @@
 
     .small-form {
         width: 100%;
-        max-width: 400px; /* Make the form smaller, but not too small */
+        max-width: 280px; /* Make the form smaller, but not too small */
         margin: 0 auto;
         padding: 15px;
         border: 1px solid #ccc;
@@ -161,6 +169,8 @@
     /* Even smaller screens (phones in portrait) */
     
 
+    
+    
 
     .section2Image img{
         width:100%;
@@ -270,10 +280,6 @@
     height: 50vh;
 }
 
-
-.section8Container{
-    padding-bottom: 100%;
-}
 
 
 

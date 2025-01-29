@@ -93,7 +93,7 @@ html{
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    height: 100vh; 
+    min-height: 100vh; 
     width: 100%; 
     display: flex;
     justify-content: center;
@@ -142,30 +142,31 @@ html{
 
 .section2Container {
     background-color: #e4d6d6;
-    height: 100vh; 
+    min-height: 100vh; 
     width: 100%; 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-bottom: 5rem;
     padding-top: .4rem;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .section2Image img{
     margin-top: 5rem;
     width: 400px;
     margin-right: 4rem;
+    border-radius: 1rem;
 }
 
 .section2Image h1{
     position: absolute;
     text-align: center;
     font-family: "Dancing Script", serif;
-    font-size: 4.3rem;
+    font-size: 4rem;
     color: #b74c4c;
-    
-    transform: translateY(-3.3rem);
+    align-items: center;
    
 }
 
@@ -173,7 +174,6 @@ html{
 
 .section2Text{
     width: 400px;
-    margin-left: 4rem;
     
 }
 
@@ -229,6 +229,20 @@ html{
     cursor: pointer;
 }
 
+.lashCardBack h1, .fmCardBack h1{
+    margin-bottom: 2rem;
+}
+
+.lashCardBack li, .fmCardBack li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lashCardBack a, .fmCardBack a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
 /* Inner content of the card */
 .lashCardInner, .fmCardInner {
     width: 100%;
@@ -272,9 +286,18 @@ html{
 
 /* Back Face Style */
 .lashCardBack, .fmCardBack {
-    background-color: #f4f3ef;
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-around;
     transform: rotateY(180deg);
+    transition: all .3s;
 }
+
+.lashCardBack:hover, .fmCardBack:hover {
+    background-color: #ffffff;
+    background-color: #f4f3ef;
+}
+
 
 /* Text Styling */
 .lashCardFront h3, .fmCardFront h3 {
@@ -293,11 +316,7 @@ html{
 }
 
 
-.lashCardBack p, .fmCardBack p {
-    font-size: 1rem;
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
+
 
 #language-select{
     padding: .8rem;
@@ -318,7 +337,7 @@ html{
 
 .section5Container {
     background-color: #a24e4e;
-    height: 100vh; 
+    min-height: 100vh; 
     max-width: 100%; 
     display: flex;
     justify-content: center;
@@ -429,7 +448,7 @@ html{
 
     .section7Container {
         
-        height: 100vh; 
+        min-height: 100vh; 
         width: 100%; 
         display: flex;
         justify-content: center;
@@ -522,10 +541,9 @@ html{
         background-size: cover; 
         background-position: center; /* Ensure the background stays centered */
         background-repeat: no-repeat;
-        height: 100vh; 
-        width: 100%; 
+        min-height: 100vh; 
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         padding-bottom: 8rem;
         padding-top: 1rem;
@@ -550,7 +568,6 @@ html{
     
     .section8Text{
         width: 400px;
-        margin-left: 4rem;
     }
     
     .section8Text h3{
@@ -637,7 +654,7 @@ html{
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
-        height: 100vh;
+        min-height: 100vh;
     }
 
 
