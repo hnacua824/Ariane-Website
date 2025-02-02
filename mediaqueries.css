@@ -50,6 +50,11 @@ flex-wrap: wrap;
     
     }
 
+    .section5Image img{
+        align-items: center;
+        width: 100%;
+    }
+
     .section5Text h3{
         font-size: small;
     }
@@ -168,10 +173,7 @@ flex-wrap: wrap;
         padding-bottom: 100%;
     }
 
-    .section5Image img{
-       padding-left: 5rem;
-
-    }
+  
     
     
 
@@ -267,9 +269,6 @@ flex-wrap: wrap;
         min-height: 50vh;
     }
 
-    .section5Image img{
-        padding-left: 5rem;
-    }
 
     .section5Text h3{
     

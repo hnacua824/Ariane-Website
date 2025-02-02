@@ -337,13 +337,14 @@ html{
         align-items: center;
         padding-top: 5rem;
         flex-wrap: wrap;
+        gap: 2rem;
         
     }
     
     .section5Image img{
         margin-top: 5rem;
-        width: 100%;
-        margin-right: 4rem;
+        max-width: 100%;
+        width: 500px;
         padding-bottom: 4rem;
         border-radius: 1rem;
     }
