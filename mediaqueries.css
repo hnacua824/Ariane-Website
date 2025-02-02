@@ -21,7 +21,9 @@ padding-bottom: 8rem;
 
 .section2Text{
     width: 100%;
-    
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
 }
     
     .section2Text p{
@@ -65,8 +67,8 @@ padding-bottom: 8rem;
     }
 
     .section5Image h1{
-        font-size: 2rem;
-        transform: translate(4.7rem,-14.3rem);
+        font-size: 1.6rem;
+        transform: translate(1.7rem,-14.3rem);
     }
 
     .section7Text h1{
@@ -77,11 +79,23 @@ padding-bottom: 8rem;
         font-size: 1rem;
     }
 
+    .section7Image img{
+        margin-right: 0;
+    }
+
+    .section8Form form{
+        padding: 1rem;
+    }
+
     
 
     .section8Text h3{
         font-size: 1.8rem;
         margin-top: 2rem;
+    }
+
+    .section8Image h1{
+        margin-right: 0;
     }
 
     .section8Text p{
@@ -157,6 +171,9 @@ padding-bottom: 8rem;
         font-size: 2rem;
         
     }
+    .section5Text{
+        margin-left: 0;
+    }
 
 
     .languageContainer{
@@ -187,13 +204,12 @@ padding-bottom: 8rem;
 
     .section7Text{
         
-        padding-right: 2rem;
-       
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 0;
     }
 
-    .section7Image img{
-        padding-left: 4rem;
-    }
+    
     
 
     .lashCardFront h3, .fmCardFront h3 {
