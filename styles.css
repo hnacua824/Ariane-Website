@@ -342,7 +342,7 @@ html{
 
 .section5Image img{
     margin-top: 5rem;
-    max-width: 480px;
+    width: 100%;
     margin-right: 4rem;
     padding-bottom: 4rem;
     border-radius: 1rem;
