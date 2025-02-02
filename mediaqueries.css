@@ -41,8 +41,8 @@ flex-wrap: wrap;
 
     .section5Container{
         
-        min-height: 100vh;
-        padding-bottom: 20%;
+        min-height: 80vh;
+    
     }
 
     .section5Text h3{
@@ -160,7 +160,7 @@ flex-wrap: wrap;
       
     .section2Container {
         min-height: 80vh; 
-        padding-bottom: 20%;
+        
     }
 
     .section5Image img{
@@ -247,7 +247,7 @@ flex-wrap: wrap;
 
 
     .section2Container{
-        padding-bottom: 20%;
+
         padding-top: 20%;
         height: 80vh;
     }
@@ -259,8 +259,8 @@ flex-wrap: wrap;
     
 
     .section5Container{
-        min-height: 100vh;
-        padding-bottom: 20%;
+        min-height: 80vh;
+        
     }
 
     .section5Image img{
