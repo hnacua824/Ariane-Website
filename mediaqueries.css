@@ -99,7 +99,7 @@ flex-wrap: wrap;
     }
 
     .section1Container{
-        background-image: url('images/IMG_2892.jpg'); 
+        background-image: url('images/IMG_2892.webp'); 
     }
 
     .footer-container {
@@ -162,6 +162,11 @@ flex-wrap: wrap;
         display: flex;
         justify-content: center;  /* Center horizontally */
         
+    }
+
+    .section1H1{
+
+        font-size: 2rem;
     }
     
     body {
@@ -323,11 +328,11 @@ flex-wrap: wrap;
 }
 
 .section1H1 {
-    font-size: 2.5rem; /* Further reduce title size */
+    font-size: 1.6rem; /* Further reduce title size */
 }
 
 .section1Text p {
-    font-size: 1.5rem; /* Further reduce text size */
+    font-size: 1.2rem; /* Further reduce text size */
 }
 
 .section1Button button {
