@@ -188,6 +188,26 @@ flex-wrap: wrap;
     }
     
 
+    .lashCardFront h3, .fmCardFront h3 {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    
+    .lashCardFront h4, .fmCardFront h4 {
+        font-size: .8rem;
+        color: #fff;
+    }
+    
+    .lashCardFront p, .fmCardFront p {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .lashCardBack a, .fmCardBack a{
+        font-size: .8rem;
+    }
+    
+
 
 }
 
