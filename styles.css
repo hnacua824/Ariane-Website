@@ -26,25 +26,18 @@ html{
     top: 0;
     z-index: 1000; 
     transition: all .8s ease;
+    left: 0;
+    right: 0;
 }
 
-.navBar2 {
-    background-color: #a24e4e;
-    padding: 1rem 1.5rem 1.1rem 1.5rem;
 
-
-    position: fixed;
-    width: 100%; 
-    top: 0;
-    z-index: 1000; 
-    transition: all .8s ease;
-}
 
 .navDiv {
     display: flex;
     align-items: center;
-    justify-content: space-around; 
-    padding: 0 4rem;
+    justify-content: space-around;  /* Adjusted for better spacing */
+    padding: 0 1rem;  
+    max-width: 100%;  
 }
 
 .navDiv ul {
@@ -156,8 +149,8 @@ html{
 
 .section2Image img{
     margin-top: 5rem;
-    width: 400px;
-    margin-right: 4rem;
+    width: 100%; 
+    max-width: 400px;  
     border-radius: 1rem;
 }
 
@@ -353,7 +346,8 @@ html{
 
 .section5Image img{
     margin-top: 5rem;
-    width: 520px;
+    width: 100%;
+    max-width: 520px;
     margin-right: 4rem;
     padding-bottom: 4rem;
 }
@@ -451,7 +445,7 @@ html{
     .section7Container {
         
         min-height: 100vh; 
-        width: 100%; 
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
