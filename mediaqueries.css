@@ -269,7 +269,8 @@ flex-wrap: wrap;
     }
 
     .section5Image img{
-        max-width: 80%;
+        max-width: 100%;
+        padding-left: 5rem;
     }
 
     .section5Text h3{
