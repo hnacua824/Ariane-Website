@@ -39,6 +39,7 @@
 
     .section5Container{
         flex-wrap: wrap;
+        max-height: 100vh;
     }
 
     .section5Text h3{
@@ -254,7 +255,7 @@
     
 
     .section5Container{
-        height: 80vh;
+        max-height: 100vh;
     }
 
     .section5Image img{
