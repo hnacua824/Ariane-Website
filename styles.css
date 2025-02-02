@@ -336,6 +336,7 @@ html{
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
+    flex-wrap: wrap;
     
 }
 
