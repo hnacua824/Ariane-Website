@@ -176,6 +176,11 @@ flex-wrap: wrap;
     .section2Container {
         min-height: 80vh; 
         padding-bottom: 100%;
+        
+    }
+
+    .section2Image img{
+        margin-top: .5rem;
     }
 
   
