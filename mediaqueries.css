@@ -27,7 +27,6 @@
     .section2Image img{
         
         width: 300px;
-        max-width: 100%;
         margin-bottom: 3rem;
        
     }
@@ -260,7 +259,7 @@
     }
 
     .section5Image img{
-        max-width: 100%;
+        max-width: 80%;
     }
 
     .section5Text h3{
