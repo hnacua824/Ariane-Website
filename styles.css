@@ -337,6 +337,7 @@ html{
     align-items: center;
     padding-top: 5rem;
     flex-wrap: wrap;
+    flex-direction: column;
     
 }
 
@@ -346,8 +347,16 @@ html{
     margin-right: 4rem;
     padding-bottom: 4rem;
     border-radius: 1rem;
+    
 }
 
+
+.section5Image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Allows absolute positioning of h1 */
+}
 
 
 .section5Image h1{
