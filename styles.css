@@ -787,32 +787,6 @@ html{
     
      
       
-.cardImage {
-    flex: 1; /* Ensures the image section takes up the available space */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 60%; /* Adjust based on how much space you want for the image */
-}
-
-.card {
-    position: relative;
-    width: 48%; /* Adjust width as needed */
-    height: 300px; /* Set a height for the card */
-    background-color: #f1f1f1; /* Fallback background color */
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-
-#bookingImage {
-    background-image: url('../images/Calender.jpeg');
-}
-
-#serviceImage {
-    background-image: url('../images/guansha.jpeg');
-}
     
       
 
