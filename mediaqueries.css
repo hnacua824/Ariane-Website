@@ -16,7 +16,7 @@
     
 .section2Container{
 flex-wrap: wrap;
-padding-bottom: 1rem;
+padding-bottom: 8rem;
 }
 
 .section2Text{
@@ -40,8 +40,7 @@ padding-bottom: 1rem;
     }
 
     .section2Image h1{
-       margin-bottom: 1rem;
-       font-size: 1.6rem;
+       display: none;
     }
 
     
@@ -291,10 +290,7 @@ padding-bottom: 1rem;
         height: 80vh;
     }
     
-    .section2Image h1{
-        font-size: 1.7rem;
-       
-    }
+    
     
 
     .section5Container{

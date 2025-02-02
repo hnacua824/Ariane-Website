@@ -144,6 +144,7 @@ html{
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .section2Image img{
@@ -167,6 +168,7 @@ html{
 .section2Text{
     width: 500px;
     padding-right: 1rem;
+    flex-wrap: wrap;
 }
 
 .section2Text h3{
