@@ -219,6 +219,9 @@ flex-wrap: wrap;
     }
     
 
+    .section6Container{
+        flex-direction: column;
+    }
 
 }
 
