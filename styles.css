@@ -136,7 +136,7 @@ html{
 
 .section2Container {
     background-color: #e4d6d6;
-    min-height: 90vh; 
+    min-height: 100vh; 
     width: 100%; 
     display: flex;
     justify-content: space-evenly;
