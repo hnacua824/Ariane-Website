@@ -333,6 +333,7 @@ flex-wrap: wrap;
 
 .section1Text p {
     font-size: 1.2rem; /* Further reduce text size */
+    margin-bottom: 3rem;
 }
 
 .section1Button button {
