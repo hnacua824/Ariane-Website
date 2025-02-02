@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +8,7 @@ body {
     background: linear-gradient(to left, white, rgb(255, 248, 239)); 
     background-position: center;
     overflow-x: hidden;
-    max-width: 100vw;
+    
     
 }
 
@@ -150,6 +149,7 @@ html{
 .section2Image img{
     margin-top: 5rem;
     width: 400px;
+    max-width: 100%;
     border-radius: 1rem;
 }
 
@@ -168,7 +168,7 @@ html{
 
 .section2Text{
     width: 400px;
-    
+    max-width: 100%;
 }
 
 .section2Text h3{

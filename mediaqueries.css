@@ -40,7 +40,6 @@
     .section5Container{
         flex-wrap: wrap;
         max-height: 100vh;
-        padding-bottom: 100%;
     }
 
     .section5Text h3{
@@ -257,7 +256,6 @@
 
     .section5Container{
         max-height: 100vh;
-        
     }
 
     .section5Image img{
