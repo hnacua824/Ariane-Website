@@ -260,7 +260,7 @@ flex-wrap: wrap;
 
     .section5Container{
         min-height: 100vh;
-        padding-bottom: 100%;
+        padding-bottom: 40%;
     }
 
     .section5Image img{
