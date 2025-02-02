@@ -179,6 +179,7 @@ flex-wrap: wrap;
         
     }
 
+  
     .section2Image img{
         margin-top: .5rem;
     }
@@ -233,7 +234,7 @@ flex-wrap: wrap;
         right: 0;
         flex-direction: column;
         text-align: center;
-        background-color: #e4d6d6;
+        background-color: rgba(183, 76, 76, 1);
         gap: 0;
         overflow: hidden;
         width: 100%;

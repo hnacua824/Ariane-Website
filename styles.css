@@ -499,6 +499,8 @@ html{
 
     .img7{
         border-radius: 40%;
+        align-items: center;
+        margin-left: 1.5rem;
     }
 
     form {
@@ -728,9 +730,9 @@ html{
 
     .footer {
         
-        background-color: #f9f9f9;
+        background-color: rgba(183, 76, 76, .85);
         color: #a24e4e;
-        padding: 5rem 0;
+        padding: 3rem 0;
         text-align: center;
       }
       
@@ -752,25 +754,29 @@ html{
         font-weight: bold;
         color: #a24e4e;
         text-decoration: none;
+        color: white;
       }
       
       .footer-left p {
         margin-top: 5px;
         font-size: 14px;
+        color: white;
       }
       
       .footer-right h3 {
         margin-bottom: 15px;
         font-size: 18px;
+        color: white;
       }
       
       .social-icons {
         display: flex;
         gap: 15px;
+
       }
       
       .social-icon {
-        color: #a24e4e;
+        color: #ffffff;
         font-size: 20px;
         text-decoration: none;
       }
