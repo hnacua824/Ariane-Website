@@ -46,7 +46,7 @@ flex-wrap: wrap;
 
     .section5Container{
         
-        min-height: 80vh;
+        min-height: 50vh;
     
     }
 
@@ -264,8 +264,7 @@ flex-wrap: wrap;
     
 
     .section5Container{
-        min-height: 80vh;
-        
+        min-height: 50vh;
     }
 
     .section5Image img{
