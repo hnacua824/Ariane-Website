@@ -159,13 +159,12 @@ flex-wrap: wrap;
     }
       
     .section2Container {
-        min-height: 80vh; 
-        
+        min-height: 90vh; 
+        padding: 20%;
     }
 
     .section5Image img{
-       max-width: 100px;
-       padding-left: 2.3rem;
+       max-width: 100%;
     }
     
     
@@ -249,7 +248,7 @@ flex-wrap: wrap;
     .section2Container{
 
         padding-top: 20%;
-        height: 80vh;
+        height: 90vh;
     }
     
     .section2Image h1{
