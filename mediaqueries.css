@@ -90,6 +90,19 @@
         background-image: url('images/IMG_2892.jpg'); 
     }
 
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .footer-left, .footer-right {
+        text-align: center;
+      }
+    
+      .social-icons {
+        justify-content: center;
+      }
+      
     .small-form {
         width: 100%;
         max-width: 280px; /* Make the form smaller, but not too small */

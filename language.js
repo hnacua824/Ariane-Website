@@ -45,6 +45,18 @@ const navItems = {
     section5Text3P: document.querySelector('.section5Text .spaces3 p'),
     section7H1: document.querySelector('.section7Text h1'),
     section7P: document.querySelector('.section7Text p'),
+    contactH1: document.querySelector('.section8Form .contactH1'),
+    nameLabel: document.querySelector('.section8Form .nameLabel'),
+    emailLabel: document.querySelector('.section8Form .emailLabel'),
+    phoneLabel: document.querySelector('.section8Form .phoneLabel'),
+    messageLabel: document.querySelector('.section8Form .messageLabel'),
+    submitBtn: document.querySelector('.section8Form .submitBtn'),
+    phoneTitle: document.querySelector('.section8Text .phoneTitle'),
+    phoneNumber: document.querySelector('.section8Text .phoneNumber'),
+    emailTitle: document.querySelector('.section8Text .emailTitle'),
+    emailAddress: document.querySelector('.section8Text .emailAddress'),
+    socialTitle: document.querySelector('.section8Text .socialTitle'),
+    socialHandle: document.querySelector('.section8Text .socialHandle'),
 };
 
 const translations = {
@@ -97,6 +109,18 @@ const translations = {
         section7P: `At Luxuriose Aesthetik we offer specialized services to enhance your 
         natural beauty and well-being. Our facial massage treatments rejuvenate the skin, improve circulation, and reduce tension for a refreshed look. We also provide lash extensions and lifts for fuller, elegantly curled lashes, eliminating the need for daily mascara. Additionally, our eyebrow lifting and tinting services frame your face beautifully, creating a youthful appearance. 
         Our skilled professionals ensure a personalized experience that boosts your confidence and promotes self-care. Discover the transformative effects of our beauty services with us.`,
+        contactH1: 'Let\'s Chat',
+        nameLabel: 'Name:',
+        emailLabel: 'Email:',
+        phoneLabel: 'Phone Number:',
+        messageLabel: 'Message:',
+        submitBtn: 'Submit',
+        phoneTitle: 'Phone',
+        phoneNumber: '(49) 15737818479',
+        emailTitle: 'E-mail',
+        emailAddress: 'hello@Luxuriosestudio.com',
+        socialTitle: 'Social',
+        socialHandle: '@LuxurioseAesthetik',
     },
     de: {  navAboutUs: 'Über uns',
         navServices: 'Dienstleistungen',
@@ -122,7 +146,7 @@ const translations = {
         lash2P: '€12',
         lash2BackP: 'Genießen Sie eine natürliche Wimpernverschönerung mit einem sanften Lifting und einer Tönung, die subtile Schönheit verleiht.',
         lash3H4: 'Augenbrauen',
-        lash3H3: 'Augenbrauenlaminierung',
+        lash3H3: 'Brauen Laminierung',
         lash3P: '€15',
         lash3BackP: 'Perfekt geformte und gepflegte Augenbrauen mit unserem Laminierungsservice. Lang anhaltende und atemberaubende Ergebnisse.',
         section3FacialH1: 'Gesichtsmassagen',
@@ -144,7 +168,19 @@ const translations = {
         section5Text3P: 'Hypoallergene, dermatologisch getestete Produkte',
         section7H1: 'Ihre Hautpflege-Retter',
         section7P: `Bei Luxuriose Aesthetik bieten wir spezialisierte Dienstleistungen an, um Ihre natürliche Schönheit und Ihr Wohlbefinden zu verbessern. Unsere Gesichtsmassagebehandlungen verjüngen die Haut, verbessern die Durchblutung und reduzieren Verspannungen für ein erfrischtes Aussehen. Wir bieten auch Wimpernverlängerungen und Lifts für vollere, elegant geschwungene Wimpern, sodass tägliches Mascara-Auftragen überflüssig wird. Zusätzlich rahmen unsere Augenbrauen-Lifting- und Tönungsdienste Ihr Gesicht wunderschön ein und sorgen für ein jugendliches Erscheinungsbild.
-        Unsere erfahrenen Fachleute sorgen für ein personalisiertes Erlebnis, das Ihr Selbstbewusstsein stärkt und zur Selbstpflege beiträgt. Entdecken Sie die transformative Wirkung unserer Schönheitsdienstleistungen bei uns.`, }
+        Unsere erfahrenen Fachleute sorgen für ein personalisiertes Erlebnis, das Ihr Selbstbewusstsein stärkt und zur Selbstpflege beiträgt. Entdecken Sie die transformative Wirkung unserer Schönheitsdienstleistungen bei uns.`,
+        contactH1: 'Lass uns reden',
+        nameLabel: 'Name:',
+        emailLabel: 'E-Mail:',
+        phoneLabel: 'Telefonnummer:',
+        messageLabel: 'Nachricht:',
+        submitBtn: 'Absenden',
+        phoneTitle: 'Telefon',
+        phoneNumber: '(49) 15737818479',
+        emailTitle: 'E-Mail',
+        emailAddress: 'hello@Luxuriosestudio.com',
+        socialTitle: 'Soziale Medien',
+        socialHandle: '@LuxurioseAesthetik', }
 };
 
 const languageSelect = document.querySelector('#language-select');
