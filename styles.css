@@ -142,7 +142,6 @@ html{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 4rem;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -154,7 +153,6 @@ html{
 }
 
 .section2Image h1{
-    position: absolute;
     text-align: center;
     font-family: "Dancing Script", serif;
     font-size: 4rem;
