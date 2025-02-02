@@ -260,6 +260,17 @@ padding-bottom: 8rem;
     }
 
 
+    .language-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: .5rem;
+    }
+
+    #language-select {
+        margin-left: -80px; 
+    }
+
+
     
     nav ul li a {
         color: #fff;  /* Change text color for better contrast on pink background */
