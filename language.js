@@ -57,6 +57,12 @@ const navItems = {
     emailAddress: document.querySelector('.section8Text .emailAddress'),
     socialTitle: document.querySelector('.section8Text .socialTitle'),
     socialHandle: document.querySelector('.section8Text .socialHandle'),
+    bookAppointmentTitle: document.querySelector('.BookingNow h3'),
+    bookAppointmentText: document.querySelector('.BookingNow p'),
+    bookNowButton: document.querySelector('.BookingNow .button'),
+    selectServiceTitle: document.querySelector('.serviceForm h3'),
+    selectServiceText: document.querySelector('.serviceForm p'),
+    chooseServiceButton: document.querySelector('.serviceForm .button'),
 };
 
 const translations = {
@@ -121,6 +127,12 @@ const translations = {
         emailAddress: 'hello@Luxuriosestudio.com',
         socialTitle: 'Social',
         socialHandle: '@LuxurioseAesthetik',
+        bookAppointmentTitle: 'Book Your Appointment',
+        bookAppointmentText: 'Select a date and time for your appointment.',
+        bookNowButton: 'Book Now',
+        selectServiceTitle: 'Select Your Service',
+        selectServiceText: 'Choose the services you\'d like to book from our list.',
+        chooseServiceButton: 'Choose Service',
     },
     de: {  navAboutUs: 'Über uns',
         navServices: 'Dienstleistungen',
@@ -180,7 +192,13 @@ const translations = {
         emailTitle: 'E-Mail',
         emailAddress: 'hello@Luxuriosestudio.com',
         socialTitle: 'Soziale Medien',
-        socialHandle: '@LuxurioseAesthetik', }
+        socialHandle: '@LuxurioseAesthetik',
+        bookAppointmentTitle: 'Buchen Sie Ihren Termin',
+        bookAppointmentText: 'Wählen Sie ein Datum und eine Uhrzeit für Ihren Termin.',
+        bookNowButton: 'Jetzt Buchen',
+        selectServiceTitle: 'Wählen Sie Ihre Dienstleistung',
+        selectServiceText: 'Wählen Sie die Dienstleistungen aus, die Sie aus unserer Liste buchen möchten.',
+        chooseServiceButton: 'Dienstleistung wählen', }
 };
 
 const languageSelect = document.querySelector('#language-select');

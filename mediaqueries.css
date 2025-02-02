@@ -146,6 +146,11 @@
     }
 
 
+    .languageContainer{
+        display: flex;
+        justify-content: center;  /* Center horizontally */
+        
+    }
     
       
 
@@ -163,9 +168,23 @@
         right: 0;
         flex-direction: column;
         text-align: center;
-        background-color: #a24e4e;
-        gap:0;
+        background-color: #e4d6d6;
+        gap: 0;
         overflow: hidden;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+
+    
+    nav ul li a {
+        color: #fff;  /* Change text color for better contrast on pink background */
+    }
+
+    nav ul li a:hover {
+        color: #ff6347; /* Change text color to a different color when hovered (e.g., tomato) */
     }
 
     nav ul li{
@@ -181,6 +200,7 @@
 @media (max-width: 480px) {
     /* Even smaller screens (phones in portrait) */
     
+
 
     
     

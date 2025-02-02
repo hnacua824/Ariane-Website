@@ -784,39 +784,7 @@ html{
       }
 
 
-      
-      
-      @media (max-width: 768px) {
-        .footer-container {
-          flex-direction: column;
-          text-align: center;
-        }
-      
-        .footer-left, .footer-right {
-          text-align: center;
-        }
-      
-        .social-icons {
-          justify-content: center;
-        }
-      }
-
-      .cardImage {
-        width: 100%;
-        height: 200px; 
-        background-size: cover;
-        background-position: center;
-    }
     
-    .bookingNowImage {
-        background: url('../images/Calender.jpeg') no-repeat center center;
-    }
-    
-    .serviceFormImage {
-        background: url('../images/guansha.jpeg') no-repeat center center;
-    }
-      
-      
      
       
     
