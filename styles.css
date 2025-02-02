@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
     background: linear-gradient(to left, white, rgb(255, 248, 239)); 
     background-position: center;
     overflow-x: hidden;
-    
+    width: 100%;
     
 }
 
