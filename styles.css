@@ -328,60 +328,60 @@ html{
       
 
 
-.section5Container {
-    background-color: #a24e4e;
-    min-height: 100vh; 
-    max-width: 80%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
+      .section5Container {
+        background-color: #a24e4e;
+        min-height: 100vh; 
+        max-width: 100%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5rem;
+        flex-wrap: wrap;
+        
+    }
     
-}
-
-.section5Image img{
-    margin-top: 5rem;
-    max-width: 450px;
-    margin-right: 4rem;
-    padding-bottom: 4rem;
-    border-radius: 1rem;
-}
-
-
-
-.section5Image h1{
-    position: absolute;
-    text-align: center;
-    font-family: "Dancing Script", serif;
-    font-size: 2rem;
-    color: #a24e4e;
-    margin-right: 2rem;
-    margin-bottom: 3rem;
-    transform: translate(5.7rem,-16.3rem);
-   
-}
-
-.section5Text{
-    width: 400px;
-    margin-left: 4rem;
-    padding-bottom: 3rem;
-}
-
-.section5Text h3{
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 2.3rem;
-}
-
-.section5Text p{
-    text-align: center;
-    margin-bottom: 1.4rem;
-    color: #ffffff;
-    font-size: 1.3rem;
-}
-
+    .section5Image img{
+        margin-top: 5rem;
+        width: 100%;
+        margin-right: 4rem;
+        padding-bottom: 4rem;
+        border-radius: 1rem;
+    }
+    
+    
+    
+    .section5Image h1{
+        position: absolute;
+        text-align: center;
+        font-family: "Dancing Script", serif;
+        font-size: 2rem;
+        color: #a24e4e;
+        margin-right: 2rem;
+        margin-bottom: 3rem;
+        transform: translate(5.7rem,-16.3rem);
+       
+    }
+    
+    .section5Text{
+        width: 400px;
+        margin-left: 4rem;
+        padding-bottom: 3rem;
+    }
+    
+    .section5Text h3{
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 2.3rem;
+    }
+    
+    .section5Text p{
+        text-align: center;
+        margin-bottom: 1.4rem;
+        color: #ffffff;
+        font-size: 1.3rem;
+    }
 .spaces{
     margin-bottom: 7rem;
 }
