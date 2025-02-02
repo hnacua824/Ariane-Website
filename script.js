@@ -17,33 +17,6 @@ document.getElementById('bookNow').addEventListener('click', function() {
 });
 
 
-//clickable pictures
-
-// document.getElementById('lash1').addEventListener('click', function() {
-//   window.location.href = "#";
-// });
-
-// document.getElementById('lash2').addEventListener('click', function() {
-//   window.location.href = "#"; 
-// });
-
-// document.getElementById('lash3').addEventListener('click', function() {
-//   window.location.href = "#";
-// });
-
-
-// document.getElementById('fm1').addEventListener('click', function() {
-//   window.location.href = "#";
-// });
-
-// document.getElementById('fm2').addEventListener('click', function() {
-//   window.location.href = "#"; 
-// });
-
-// document.getElementById('fm3').addEventListener('click', function() {
-//   window.location.href = "#";
-// });
-
 
 document.getElementById('bookNow').addEventListener('click', function() {
   window.location.href = "booking.html";

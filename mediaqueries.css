@@ -64,16 +64,6 @@
         font-size: 1rem;
     }
 
-    .section5Image img, .section7Image img {
-        max-width: 90%;
-    }
-
-    .section5Text, .section7Text {
-        width: 100%;
-        margin-left: 0;
-    }
-    
-
     
 
     .section8Text h3{
@@ -164,10 +154,6 @@
     
     body {
         overflow-x: hidden;
-    }
-
-    .navBar {
-        padding: 1rem;  /* Reduced padding */
     }
       
 
